@@ -1,0 +1,131 @@
+/* styles.css - Stylish, colorful page for Onakah Consortium */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: linear-gradient(135deg, rgb(7, 4, 4) 0%, rgba(250, 225, 2, 0.993) 100%);
+    color: #222;
+    min-height: 100vh;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(7, 4, 4, 0.534) 0%, rgb(250, 225, 2, 0.993) 100%);
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgb(235, 181, 6);
+}
+
+#menu-bar a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #f8b703;
+    padding: 5px;
+    position: center;
+    top: 1rem;
+    right: 1rem;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 700;
+}
+
+nav {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.5rem 1.2rem;
+    color: #fff;
+    background: linear-gradient(90deg, #020202 0%, rgb(173, 148, 2) 100%);
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: linear-gradient(90deg, rgb(3, 3, 3) 0%, rgb(241, 199, 10) 100%);
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: rgb(231, 144, 14);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    padding: 2rem;
+}
+
+h1 {
+    color: rgb(253, 251, 251);
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    background: linear-gradient(90deg, rgb(5, 3, 3) 0%, rgb(0, 2, 100) 100%);
+    color: #222;
+    border: none;
+    border-radius: 14px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(247,151,30,0.15);
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, rgb(2, 2, 2) 0%, rgb(110, 85, 1) 100%);
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background: linear-gradient(90deg, rgba(ffffff) 0%, rgb(1, 59, 16) 100%);
+    color: #fff;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-bottom: 0rem;
+    font-size: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h3 {
+    color: rgb(100, 0, 0);
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+p {
+    color: rgb(245, 242, 242);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+pre {
+    color: rgb(252, 250, 250);
+    font-size: 1rem;
+    line-height: 1.3;
+}
